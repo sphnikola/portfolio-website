@@ -38,59 +38,63 @@ export default function App() {
                   details, well-versed in design standards and user preferences
                 </p>
                 <div>
-                  <h3 className="space-mono-regular text-2xl md:text-3xl md:pr-10 lg:max-w-lg">
+                  <h3 className="space-mono-regular text-2xl mb-5  md:text-3xl md:pr-10 lg:max-w-lg lg:mb-8">
                     Some technologies i like to work with:
                   </h3>
                   <div className="flex flex-col items-center md:items-start">
-                    <div class="grid w-2/3 grid-cols-2  grid-rows-4 md:w-1/2">
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        HTML
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        CSS
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        JAVASCRIPT
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        REACT
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        TAILWINDCSS
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        GITHUB
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        GIT
-                      </span>
-                      <span className="mb-2 flex items-center">
-                        <div class="mr-3  inline-block w-2 overflow-hidden">
-                          <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
-                        </div>
-                        ACCESSIBILITY
-                      </span>
+                    <div className="flex gap-x-16 space-mono-regular text-[#2f3031] md:text-lg">
+                      <ul class="">
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          HTML
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          CSS
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          JAVASCRIPT
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          REACT
+                        </li>
+                      </ul>
+                      <ul>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          TAILWINDCSS
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          GITHUB
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          GIT
+                        </li>
+                        <li className="mb-2 flex items-center">
+                          <div class="mr-3  inline-block w-2 overflow-hidden">
+                            <div class=" h-4  origin-top-left rotate-45 bg-[#272829]"></div>
+                          </div>
+                          ACCESSIBILITY
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
