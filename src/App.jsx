@@ -1,4 +1,9 @@
 import avatar from "./assets/portfolio_avatar.svg";
+import github from "./assets/github.png";
+import news from "./assets/news.png";
+import planet from "./assets/planet.png";
+import quiz from "./assets/quiz.png";
+import scoot from "./assets/scoot.png";
 
 export default function App() {
   return (
@@ -11,10 +16,10 @@ export default function App() {
           <nav className="space-mono-regular">
             <ul className="flex gap-x-4">
               <li>
-                <a>Linkedin</a>
+                <a href="#">Linkedin</a>
               </li>
               <li>
-                <a>Github</a>
+                <a href="#">Github</a>
               </li>
             </ul>
           </nav>
@@ -108,6 +113,81 @@ export default function App() {
           </section>
         </main>
       </section>
+      <div className="flex flex-col lg:items-center px-5 bg-[#eef5ff] mt-10 md:rounded-xl">
+        <div className="flex  justify-center">
+          <h3 className="space-mono-regular text-2xl my-5  md:text-3xl  lg:mb-8 ">
+            Some Projects i have worked on
+          </h3>
+          <div></div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          <a
+            href="https://fem-scoot.netlify.app"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[600px] "
+              src={scoot}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              Scoot Website
+            </h4>
+          </a>
+          <a
+            href="https://fem-github-user-search-app.netlify.app"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[600px]"
+              src={github}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              Github User Search App
+            </h4>
+          </a>
+          <a
+            href="https://fem-quiz-app.netlify.app"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[600px]"
+              src={quiz}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              Quiz app
+            </h4>
+          </a>
+          <a
+            href="https://fem-planet-fact-site.netlify.app"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[600px]"
+              src={planet}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              Planet fact website
+            </h4>
+          </a>
+          <a
+            href="https://newshompage-zz.netlify.app"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[600px]"
+              src={news}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              News Website Homepage
+            </h4>
+          </a>
+        </div>
+      </div>
     </>
   );
 }
