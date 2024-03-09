@@ -16,10 +16,20 @@ export default function App() {
           <nav className="space-mono-regular">
             <ul className="flex gap-x-4">
               <li>
-                <a href="#">Linkedin</a>
+                <a
+                  href="https://www.linkedin.com/in/wasante/"
+                  className="hover:text-blue-400"
+                >
+                  Linkedin
+                </a>
               </li>
               <li>
-                <a href="#">Github</a>
+                <a
+                  href="https://github.com/sphnikola"
+                  className="hover:text-blue-400"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </nav>
@@ -113,7 +123,7 @@ export default function App() {
           </section>
         </main>
       </section>
-      <div className="flex flex-col lg:items-center px-5 bg-[#eef5ff] mt-10 md:rounded-xl">
+      <div className="flex flex-col lg:items-center px-5 bg-[#272829] text-white mt-10 md:rounded-2xl">
         <div className="flex  justify-center">
           <h3 className="space-mono-regular text-2xl my-5  md:text-3xl  lg:mb-8 ">
             Some Projects i have worked on
