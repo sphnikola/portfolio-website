@@ -137,7 +137,7 @@ export default function App() {
             className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
           >
             <img
-              className="rounded-xl object-contain lg:w-[600px] "
+              className="rounded-xl object-contain lg:w-[300px] "
               src={scoot}
             />
             <h4 className="  space-mono-regular font-semibold text-xl ">
