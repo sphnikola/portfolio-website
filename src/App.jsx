@@ -4,7 +4,7 @@ import news from "./assets/news.png";
 import planet from "./assets/planet.png";
 import quiz from "./assets/quiz.png";
 import scoot from "./assets/scoot.png";
-import monster from "./assets/monstercat-album.netlify.app_(1).png";
+import monster from "./assets/monstercat-album.netlify.app_.png";
 
 export default function App() {
   return (
@@ -138,7 +138,7 @@ export default function App() {
             className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
           >
             <img
-              className="rounded-xl object-contain lg:w-[300px] "
+              className="rounded-xl object-contain lg:w-[300px] lg:h-[600px] "
               src={monster}
             />
             <h4 className="  space-mono-regular font-semibold text-xl ">
