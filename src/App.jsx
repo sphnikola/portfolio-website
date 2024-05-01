@@ -4,7 +4,7 @@ import news from "./assets/news.png";
 import planet from "./assets/planet.png";
 import quiz from "./assets/quiz.png";
 import scoot from "./assets/scoot.png";
-import monster from "./assets/monstercat.png";
+import monster from "./assets/monster.png";
 
 export default function App() {
   return (
