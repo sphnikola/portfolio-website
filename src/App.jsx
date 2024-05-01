@@ -4,7 +4,7 @@ import news from "./assets/news.png";
 import planet from "./assets/planet.png";
 import quiz from "./assets/quiz.png";
 import scoot from "./assets/scoot.png";
-import monster from "./assets/monstercat-album.netlify.app_.png";
+import monster from "./assets/monstercat-album.netlify.app_(1).png";
 
 export default function App() {
   return (
