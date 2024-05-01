@@ -4,6 +4,7 @@ import news from "./assets/news.png";
 import planet from "./assets/planet.png";
 import quiz from "./assets/quiz.png";
 import scoot from "./assets/scoot.png";
+import monster from "./assets/monstercat-album.netlify.app_.png";
 
 export default function App() {
   return (
@@ -131,6 +132,19 @@ export default function App() {
           <div></div>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
+           <a
+            href="https://monstercat-album.netlify.app/"
+            target="_blank"
+            className="hover:scale-105 hover:duration-200 hover:text-blue-400 focus:text-orange-300"
+          >
+            <img
+              className="rounded-xl object-contain lg:w-[300px] "
+              src={monster}
+            />
+            <h4 className="  space-mono-regular font-semibold text-xl ">
+              Monstercat Website
+            </h4>
+          </a>
           <a
             href="https://fem-scoot.netlify.app"
             target="_blank"
